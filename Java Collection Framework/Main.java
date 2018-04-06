@@ -1,4 +1,3 @@
-package hola.com;
 //import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.DataInputStream;
@@ -34,8 +33,6 @@ public class Main {
 		
 		boolean pass = true;
 		while(pass) {
-			//System.out.println("Presione enter para obtener el siguiente paciente:");
-			//scanner.nextLine();
 			if(!vector.isEmpty()) {
 				System.out.println(vector.remove().toString() + "\n");
 			}else {
