@@ -1,0 +1,20 @@
+Juan Perez, fractura de pierna, C
+Maria Ramirez, apendicitis, A
+Lorenzo Toledo, chikunguya, E
+Carmen Sarmientos, dolores de parto, B
+Daniel Perez, fractura de coxis, C
+Mario Gomez, ebola, A
+Juan Lopez, herpes, E
+Mario Abner, dolores de parto, D
+Daniel Lopez, herpes, B
+Rodrigo Abner, dolores de parto, A
+Juan Ramirez, fractura de pierna, C
+Maria Toledo, apendicitis, A
+Lorenzo Sarmientos, chikunguya, E
+Carmen Perez, dolores de parto, B
+Daniel Gomez, fractura de coxis, C
+Mario Lopez, ebola, A
+Juan Abner, herpes, E
+Mario Lopez, dolores de parto, D
+Daniel Abner, herpes, B
+Karla Abner, dolores de parto, A
