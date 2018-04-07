@@ -4,10 +4,12 @@ import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.Scanner;
+import java.util.PriorityQueue;
 
 public class Main {
 	public static void main(String[] args) {
-		 CVectorHeap <CPaciente> vector = new CVectorHeap<CPaciente>();
+		 //CVectorHeap <CPaciente> vector = new CVectorHeap<CPaciente>();
+		PriorityQueue<CPaciente> queue = new PriorityQueue<>();
 		 Scanner scanner = new Scanner(System.in);
 		try {
 			
@@ -21,7 +23,8 @@ public class Main {
                 String nombre = temporal[0];
                 String sintoma = temporal[1];
                 String prioridad= temporal[2];
-                vector.add(new CPaciente(nombre, sintoma, prioridad));
+                //vector.add(new CPaciente(nombre, sintoma, prioridad));
+                queue.add(new CPaciente(nombre, sintoma, prioridad));
             }
 			
 			entrada.close();
@@ -33,8 +36,8 @@ public class Main {
 		
 		boolean pass = true;
 		while(pass) {
-			if(!vector.isEmpty()) {
-				System.out.println(vector.remove().toString() + "\n");
+			if(!queue.isEmpty()) {
+				System.out.println(queue.remove().toString() + "\n");
 			}else {
 				System.out.println("No Hay Mas Pacientes");
 				pass = false;
