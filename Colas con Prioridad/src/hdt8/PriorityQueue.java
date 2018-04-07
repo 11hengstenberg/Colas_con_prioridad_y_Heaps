@@ -1,13 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package hdt8;
 
 /**
- *
- * @author gaming
+ * @author Alexis Hengstenberg 17699
+ * @author Sebastian Arriola 11463
  */
 public interface PriorityQueue<E extends Comparable<E>>
 {
